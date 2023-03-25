@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+     
+    <style>
+        body{
+            background-image: url(bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+
+        .card {
+            padding: 30px;
+            border: none;
+            background-color: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            width: 30rem;
+            height: 30rem;
+            border-bottom: 5px solid  #FF4545;
+            border-top: 5px solid  #FF4545;
+            
+
+        }
+
+        .card h1 {
+            font-size: 30px;
+            color: #FF4545;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card p {
+            font-weight: bold;
+            margin-top: -5px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image img {
+            width: 200px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #mau ,#tidak {
+            transition: .3s;
+        }
+
+        #mau:hover ,#tidak:hover{
+            transform: scale(2);
+        }
+
+
+        /* animati button */
+
+
+        
+
+
+
+        
+
+        
+    </style>
+    <title>HI, Cantik</title>
+  </head>
+  <body>
+
+
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <!-- <img src="love2.png" alt=""> -->
+                <center>
+                <img src="love2.gif" alt="">
+                </center>
+            </div>
+            <h1>Semangat ya all kerjanya &hearts; </h1>
+            <p>Masih kuat kan puasanya?</p>
+
+            <div class="button">
+                <button class="btn btn-primary" id="ya" onClick="Masih()">Masih &hearts;</button>
+                <button class="btn btn-danger" id="engga" onclick="Engga()">Engga &#128549;</button>
+
+                
+            </div>
+          </div>
+    </div>
+    
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <script>
+    function Masih()
+    {
+    alert("Alhamdulilah deh")
+     // masukkan nomor whataps doi kalian ;)
+    location.replace("https://wa.me/6285156504851?text=Harus kuat ya sampe nanti waktunya buka hehehe")
+    }
+
+
+   
+    function Engga()
+    {
+    alert("Aku tau pasti kamu cape kan, tapi harus kuat yaa, nanti juga gakerasa tiba tiba adzan magrhib wkwkwk")
+    // masukkan nomor whataps doi kalian ;)
+    location.replace("https://wa.me/6285156504851?text=Btw maaf ya, pas sahur tadi kan kita udah janjian mau gmeet, tapi aku malah ketiduran:((")
+    }
+
+
+
+
+    </script>
+  </body>
+</html>
